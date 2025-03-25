@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="shortcut icon" href="https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/06/Starbucks_Corporation_Logo_2011.svg-e1657703028844.png?auto=format&q=60&fit=max&w=930" type="image/x-icon">
+    <style>
+        /* table {
+            border-radius: 10px;
+            border-collapse: separate;
+            overflow: hidden;
+        }
+        img {
+            border-radius: 10px;
+        }
+        button {
+            border-radius: 5px;
+            padding: 5px 10px;
+        } */
+    </style>
+</head>
+<body>
+    <h1 style="color: red; text-decoration: underline; text-align: center;">Forms in HTML</h1>
+    
+    <center>
+        <form action="" autocomplete="on">
+            <fieldset>
+                <legend>Enter the Details:</legend>
+                <table bgcolor="aqua">
+                    <tr>
+                        <td><label for="fn">First Name</label></td>
+                        <td><input type="text" id="fn" value="shanshank" readonly required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ln">Last Name</label></td>
+                        <td><input type="text" id="ln" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password</label></td>
+                        <td><input type="password" id="pass" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mail">Email</label></td>
+                        <td><input type="email" id="mail" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date</label></td>
+                        <td><input type="date" id="dob" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dobtime">Date and Time</label></td>
+                        <td><input type="datetime-local" id="dobtime" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="month">Month</label></td>
+                        <td><input type="month" id="month" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="week">Week</label></td>
+                        <td><input type="week" id="week" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="times">Time</label></td>
+                        <td><input type="time" id="times" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="girl">Girlfriends</label></td>
+                        <td>
+                            <select id="girl">
+                                <option value="">Ranu Mondal</option>
+                                <option value="">XYZ</option>
+                                <option value="" disabled>Swetha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="add">Address</label></td>
+                        <td><textarea id="add" autofocus></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prof">Profile</label></td>
+                        <td>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY0UuGKXhLqW8wfa_0rEhEYj09bNYvHkr0bg&s" alt="Profile Image">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button type="submit">Submit</button>
+                            <button type="reset">Cancel</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
