@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: black;
+    background-image: url(https://imgd-ct.aeplcdn.com/370x231/n/cw/ec/163431/amg-c-43-right-front-three-quarter.jpeg?isig=0&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://imgd.aeplcdn.com/272x153/n/cw/ec/150621/g-class-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpmuFk_I-uAjcRVmpetkdsSBO0nz3hcF5sIJTmh3c1G-Q3G3NgFM6rInaPieRG5V3fFSA&usqp=CAU),url(https://di-uploads-pod3.dealerinspire.com/fletcherjonesmbnewport/uploads/2025/01/mercedes-benz-g-class-electric-suv-hub-image-updated-01.png);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 200px 200px,200px 200px ,200px 200px;
+    background-position: 200px 100px,600px 100px,950px 100px;
+}
+.clasic{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(37, 27, 16);
+}
+img{
+    height: 300px;
+    width: 200px;
+}

@@ -1,0 +1,78 @@
+body{
+   
+}
+
+h1{
+  margin-top: 100px;
+    text-align: left;
+    text-transform: uppercase;
+    align-content: center;
+    text-align: justify;
+    width: 20px;
+    color: white;
+   margin-left: 65px;
+}
+.log{
+    margin-top: 250px;
+    margin-left: 20px;
+}
+#card{
+    height: 600PX;
+    background-color: rgb(22, 53, 40);
+    background-image: url(https://p7.hiclipart.com/preview/74/135/683/html-y-css-cascading-style-sheets-portable-network-graphics-image-html-logo-thumbnail.jpg);
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: 45px 50px;
+   display: flex;
+  
+  
+}
+#container{
+
+    background-color: rgb(22, 53, 40);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.one{
+    height: 400px;
+    width: 250px;
+    background-color:white;
+   
+    border-radius: 10%;
+    background-image: url(https://t3.ftcdn.net/jpg/03/17/76/14/360_F_317761488_lUO7Enkcskj6wppf9Ycf5zck5Jm2Y2b9.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+}
+.two{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/14/16/mountaineer-1834841_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+}
+.three{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/22/18/19/caravan-3341872_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+}
+h6,h2,p{
+   margin-bottom: 200px;
+    width: 200px;
+    text-align: justify;
+    margin:20px;
+    text-transform: capitalize;
+}
+h6{
+    margin-top: 205px;
+}

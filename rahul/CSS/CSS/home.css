@@ -1,0 +1,28 @@
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1~h2{
+    color: aqua;
+}
+body{
+    
+    background-image: url(https://t4.ftcdn.net/jpg/01/25/12/31/360_F_125123133_3reb4qSyXMF8yEa8rVuAofGJEpUvZYIT.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+div{
+    height: 600px;
+    width: 100%;
+   
+    background-image: url(https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M6HASPARCZHYNN4XTUYT7H6PTE.jpg&w=1600&h=900),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZMRxW8Htl_Kc5daJ1s3mcraBXx8i1idURcg&s);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 40% 200px,40% 200px;
+    background-position:50px 100px,750px 100px;
+    
+}

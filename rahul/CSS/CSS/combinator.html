@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* header article{
+            background-color: black;
+            color: red;
+        }
+        header>article{
+            background-color: aqua;
+            color: black;
+        }
+         h1+h2{
+            background-color: blueviolet;
+            color: black;
+         } */
+       h1~article{
+        background-color: blueviolet;
+        color: red;
+       }
+        /* article>article{
+            background-color: blue;
+            color: brown;
+        } */
+         header article{
+            background-color: aqua;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <article>
+            <h1>i am inside artical</h1>
+            <h2>i am adjacent to the h1</h2>
+          <article>
+             <h3>i am adjacent to the h2</h3>
+             <h1>hi iam rahul</h1>
+             <p>hi we all are to be the one who want something</p>
+          </article> 
+        </article>
+        <div>
+            hi i am child of the header 
+ </div>
+       
+    </header>
+</body>
+</html>

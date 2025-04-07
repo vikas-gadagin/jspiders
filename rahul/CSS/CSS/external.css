@@ -1,0 +1,32 @@
+h2{
+    color: yellow;
+    background-color: aqua;
+}
+
+#demo{
+    color: rgb(12, 26, 48);
+    background-color: antiquewhite;
+}
+.ot{
+    color: aqua;
+    background-color: blueviolet;
+}
+h3,h4,div{
+    color: blueviolet;
+    background-color: blue;
+}
+*{
+    color:red;
+    background-color: hotpink;
+}
+
+/* important or priority give for the particular taga when it has both id and class */
+#rr{
+    color:blue;
+}
+.rcb{
+    color: yellow !important;
+}
+h1{
+    color: brown;
+}

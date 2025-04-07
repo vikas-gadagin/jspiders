@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: rgb(27, 23, 23);
+            color: rgb(39, 144, 185);
+
+        }
+        h1{
+            content: center;
+        }
+        .choice{
+           
+            height: 165px;
+            width: 165px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {  
+            background-color: yellow;
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            }
+        .choices{
+          
+            gap: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5rem;
+
+            }
+           
+            .choice:hover{
+                background-color: rgb(14, 78, 52);
+               cursor: pointer;
+
+            }
+           .msg-container{
+                
+                 align-content: center;
+                display: flex;
+                display: inline;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(24, 32, 32);
+                font-size: 150%;
+                margin-top: 10px;
+                border-radius: 20%;
+              
+
+                
+            }
+            .score-board{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+                gap: 2rem;
+              
+            }
+    </style>
+</head>
+<body>
+    <header><center>
+        <h1>play game</h1>
+        <h1>Rock paper scissors</h1>
+        </center>
+   </header>
+  <div class="choices">  
+    <div class="choice" id="rock"><img src="./../rock.png" alt=""></div>
+    <div class="choice" id="paper"> <img src="./../paper.png" alt=""></div>
+    <div  class="choice" id="scissor"> <img src="./../sciser.png" alt=""></div>
+  </div>
+  <center> <div class="score-board">
+    <div class="score">
+    <p id="userscore">0</p>
+    <p>you</p>
+    </div>
+    <div class="score">
+        <p id="compscore">0</p>
+        <p>comp</p>
+    </div>
+    </div>
+    
+</center>
+  </div>
+  <center><div class="msg-container" type="button">play the move</div></center>
+  <script src="apk.js"></script>
+</body>
+</html>

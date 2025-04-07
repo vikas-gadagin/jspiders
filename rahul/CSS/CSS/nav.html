@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        nav{
+            background-color: black;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           
+        }
+        nav h4{
+            color: aqua;
+
+        }
+        nav>h3,h4{
+            color: red;
+        }
+        h3+h4{
+            color: yellow;
+        }
+        h3~h3{
+            color: blueviolet;
+        }
+        #box{
+            height: 200px;
+            width: 200px;
+            background-color: hotpink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container{
+            height: 400px;
+            width: 100%;
+            background-color: burlywood;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+        }
+        .first{
+            height: 200px;
+            width:200px ;
+            color: rgb(31, 28, 28);
+            background-color: rgb(247, 40, 50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .second{
+            height: 200px;
+            width:200px ;
+            color: rgb(236, 226, 226);
+            background-color: rgb(236, 82, 229);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .third{
+            height: 200px;
+            width:200px ;
+            color: rgb(37, 9, 9);
+            background-color: rgb(42, 72, 245);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .four{
+            height: 200px;
+            width:200px ;
+            color: red;
+            background-color: rgb(255, 243, 76);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <h3>men</h3>
+    <h3>women</h3>
+    <h3>kids</h3>
+    <h4>house/kitchen</h4>
+    <h4>beauty</h4>
+</nav>
+<div id="box">
+    hello
+</div>
+<nav id="container">
+    <div class="first">hello</div>
+    <div class="second">hello</div>
+    <div class="third">hello</div>
+    <div class="four">hello</div>
+</nav>
+</body>
+</html>
