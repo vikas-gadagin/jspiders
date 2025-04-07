@@ -1,0 +1,25 @@
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1147252758/photo/healthy-vegetarian-food-background-vegetables-pesto-and-lentil-curry-with-tofu.webp?s=2048x2048&w=is&k=20&c=8zbnbstQR6nflAuEmk6OVnnROWRIrUTW4cGqDPQ3ce8=");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+div{
+   height: 500px;
+   width: 100%;
+   background-color: rgb(rgb(105, 11, 11), rgb(28, 154, 28), rgb(16, 16, 168)); 
+   background-image: url("https://media.istockphoto.com/id/1286776767/photo/young-woman-at-home-stock-photo.jpg?s=2048x2048&w=is&k=20&c=dtJt7W_A7TnZgAqvRlie_kStWpW0TB2xeVHtOFo6KLI="),url("https://media.istockphoto.com/id/1300676543/photo/beautyful-young-woman-at-home-stock-photo.webp?s=2048x2048&w=is&k=20&c=aejVcQTaTlqRASlKzPYgX1N4WTzK_32oz5KWqU8w7Rg=");
+   background-repeat: no-repeat,no-repeat;
+   background-size: 40% 400px,40% 400px;
+   background-position: 100px 150px,1000px 150px;
+
+}

@@ -1,0 +1,13 @@
+#first
+{
+    background-color: yellow;
+    display: flex;
+    justify-content:space-between;
+}
+#second{
+    display: flex;
+}
+#third{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: greenyellow;
+    background-image:url("https://cdn.pixabay.com/photo/2016/09/07/11/37/sunset-1651426_1440_2560.jpg");
+    background-repeat: repeat-x;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    color: white;
+}
+#img1{
+    height: 300px;
+    width: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStZsN4y9QN9mz_oL1zxk0ZeOk8Mos_hvptAg&s");
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+
+
+}
+#img2{
+    height: 300px;
+    width: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA296q6n00p6QQe5V3N8rKNoCVE3UYhnsYRA&s");
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+    
+
+}
